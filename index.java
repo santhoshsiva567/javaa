@@ -9,12 +9,12 @@ public class index {
 	public static void main(String[] args)
 	{ 
 		ArrayList<String>names = new ArrayList <String>();
-		names.add("shankar");
-		names.add("chandru");
-		names.add("karthik");
-		names.add("anu");
-		names.add("bavana");
 		names.add("santhosh");
+		names.add("johan");
+		names.add("kowsi");
+		names.add("dinesh");
+		names.add("rajesh");
+		names.add("sathish");
 		
 		Collections.sort(names);
 	   System.out.println(names);
@@ -23,11 +23,11 @@ public class index {
 		ArrayList<String>candidates = new ArrayList <String>();
 		HashSet<String>uniqueNames=new HashSet<String>();
 		
-		names.add("bala");
-		names.add("sreemathi");
-		names.add("sankar");
-		names.add("moni");
-		names.add("abi");
+		names.add("logesh");
+		names.add("mani");
+		names.add("bharathi");
+		names.add("divi");
+		names.add("gayathri");
 		
 		for (String name :uniqueNames) {
 			candidates.add(name);
